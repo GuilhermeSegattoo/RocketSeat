@@ -12,6 +12,11 @@
     --green-300: #4cbd9b;
 }
 
+:focus{
+    outline: transparent;
+    box-shadow: var(--green-500);
+}
+
 *{
     margin: 0;
     padding: 0;
